@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/demo
+nats:
+  # nats address
+  nats-urls: nats://39.97.255.141:4222
+  max-reconnect: 60
+  reconnect-wait: 2
+  connection-timeout: 2
